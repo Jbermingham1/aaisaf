@@ -1,33 +1,45 @@
-# Australian AI Threat Landscape 2026
+# AI Threat Landscape 2026
 
-## AI Adoption in Australia
+## Global AI Adoption
 
-Australia's AI adoption has accelerated significantly since 2024. The key dynamics shaping the 2026 threat landscape:
+AI adoption has accelerated significantly since 2024 across all major markets. The key dynamics shaping the 2026 threat landscape:
 
 ### Market Context
 
-- **62% of Australian SMBs** plan to spend $1,000+ annually on AI tools (CSIRO/AISA surveys, 2025)
-- **Enterprise AI spending** in Australia exceeded $4.5B AUD in 2025, projected to reach $7B by 2027 (IDC Asia-Pacific)
-- **Voice AI** deployment in Australian contact centres grew 340% between 2024 and 2026, driven by labour costs and 24/7 expectations
-- **RAG systems** are the dominant enterprise AI pattern — deployed in legal, financial services, healthcare, and government
+- **77% of organisations** globally run GenAI in production, only **37%** have formal AI security policy (WEF 2026)
+- **97% of non-human identities** have excessive privileges in AI-integrated environments (Entro Security 2025)
+- **40% of enterprise applications** will integrate AI agents by end 2026 (Gartner)
+- **Voice AI** deployment in contact centres accelerating globally, driven by cost reduction and 24/7 expectations
+- **RAG systems** are the dominant enterprise AI pattern — deployed across legal, financial services, healthcare, and government globally
 - **Agentic AI** entered production in mid-2025. Multi-agent systems are in early adoption, primarily in software development and data analysis
-- **MCP (Model Context Protocol)** was released by Anthropic in November 2024. By March 2026, it had become the de facto standard for AI tool integration, with thousands of production servers deployed
+- **MCP (Model Context Protocol)** was released by Anthropic in November 2024. By March 2026, it had become the de facto standard for AI tool integration, with 5,800+ servers in the ecosystem
 
 ### The Gap
 
-AI adoption has outpaced security maturity. Most Australian organisations deploying AI:
+AI adoption has outpaced security maturity globally. Most organisations deploying AI:
 
 - Have not conducted any AI-specific security assessment
 - Rely on model provider guardrails as their sole defence
 - Do not have AI-specific incident response procedures
-- Have not mapped their AI systems to existing compliance obligations (Privacy Act, Essential Eight)
+- Have not mapped their AI systems to existing compliance obligations
 - Do not monitor AI system behaviour in production
 
 ---
 
 ## Regulatory Landscape
 
-### Current State (March 2026)
+### Global Regulatory Environment (March 2026)
+
+AI regulation is accelerating globally, with mandatory compliance requirements emerging across jurisdictions:
+
+| Jurisdiction | Key Regulation | Status | Impact |
+|-------------|---------------|--------|--------|
+| **European Union** | AI Act | Mandatory conformity assessments from August 2, 2026 | High-risk AI systems require structured assessment |
+| **United States** | NIST AI RMF + AI 600-1 | Voluntary, widely adopted | De facto standard for GenAI risk management |
+| **International** | ISO/IEC 42001 | Published 2023, adoption growing | AI management system certification |
+| **United Kingdom** | AI Safety Institute | Operational | Frontier model evaluations |
+
+### AU/APAC Regulatory Context
 
 Australia does not have AI-specific legislation. The regulatory environment consists of:
 
@@ -64,8 +76,8 @@ Australia does not have AI-specific legislation. The regulatory environment cons
 
 | Actor Type | Motivation | Techniques | Australian Relevance |
 |-----------|-----------|-----------|---------------------|
-| **Cybercriminals** | Financial gain | Prompt injection for data exfiltration, voice deepfake fraud, credential harvesting | High — Australian financial sector targeted |
-| **Nation-State** | Espionage, disruption | Supply chain compromise, training data poisoning, persistent agent manipulation | High — Five Eyes/AUKUS context makes AU a target |
+| **Cybercriminals** | Financial gain | Prompt injection for data exfiltration, voice deepfake fraud, credential harvesting | High — financial sector globally targeted |
+| **Nation-State** | Espionage, disruption | Supply chain compromise, training data poisoning, persistent agent manipulation | High — first confirmed state-sponsored AI attack September 2025 (Microsoft) |
 | **Hacktivists** | Ideology, disruption | Jailbreaking, guardrail bypass, public embarrassment via AI output manipulation | Medium |
 | **Insiders** | Various | System prompt extraction, data exfiltration via AI, privilege escalation | High — AI systems often have broad data access |
 | **Researchers/Bug Bounty** | Discovery, reputation | All techniques — constructive when coordinated, destructive when not | Medium — drives vulnerability discovery |
@@ -84,17 +96,19 @@ Australia does not have AI-specific legislation. The regulatory environment cons
 
 ---
 
-## Australian-Specific Considerations
+## Regional Considerations
 
-### Data Sovereignty
+### Data Sovereignty (Global)
 
-Australian organisations must consider where AI processing occurs:
-- Many LLM APIs route data through US or EU infrastructure
-- Voice AI systems may process audio recordings offshore
-- RAG systems may send sensitive documents to cloud-based embedding services
+Organisations across all jurisdictions must consider where AI processing occurs:
+- Many LLM APIs route data through infrastructure in different jurisdictions
+- Voice AI systems may process audio recordings across borders
+- RAG systems may send sensitive documents to cloud-based embedding services in other regions
 - MCP servers may expose internal data to AI systems hosted externally
 
-The Privacy Act's APP 8 (cross-border disclosure) applies when personal information is sent to overseas AI processing services.
+Cross-border data transfer regulations (GDPR Article 44-49, AU APP 8, CCPA) apply when personal information is sent to AI processing services in other jurisdictions.
+
+### AU/APAC-Specific Considerations
 
 ### Industry-Specific Risks
 
@@ -126,11 +140,11 @@ AI system deployments must be integrated into the organisation's Essential Eight
 
 Based on current trajectory:
 
-1. **MCP server attacks will increase significantly** as MCP adoption grows. The October 2025 CVE was the first; more will follow.
-2. **Voice deepfake fraud will target Australian financial services** as voice AI becomes the default interaction channel for banking.
+1. **MCP server attacks will increase significantly** as MCP adoption grows. The October 2025 CVE was the first; more will follow. Enterprise standardisation in 2026 will expand the attack surface.
+2. **Voice deepfake fraud will target global financial services** as voice AI becomes the default interaction channel for banking and customer service.
 3. **AI supply chain attacks will escalate** — the litellm incident demonstrated the attack pattern; others will replicate it.
-4. **Multi-agent system compromises** will emerge as organisations deploy production multi-agent workflows without adequate trust boundaries.
-5. **Regulatory enforcement will begin** — OAIC and ACCC will bring their first AI-specific enforcement actions, likely related to privacy or consumer protection.
+4. **Multi-agent system compromises** will emerge as organisations deploy production multi-agent workflows without adequate trust boundaries. Agentic AI market: $6.96B → $57.42B by 2031 (42% CAGR).
+5. **Regulatory enforcement will begin globally** — EU AI Act conformity assessments mandatory from August 2026; national regulators will bring first AI-specific enforcement actions.
 6. **AI-specific incident response gaps** will be exposed when organisations discover their existing IR plans do not cover AI system compromises.
 
 This threat landscape provides the operational context for AAISAF assessments. Assessors should reference this document when scoping engagements and prioritising findings.

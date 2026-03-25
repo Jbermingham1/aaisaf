@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Australian AI Security Assessment Framework (AAISAF) provides a structured, evidence-based methodology for assessing the security of artificial intelligence systems. It is the operational layer that bridges existing frameworks — OWASP LLM Top 10, MITRE ATLAS, and NIST AI RMF — into actionable assessment techniques with Australian regulatory context.
+The AI Security Assessment Framework (AAISAF) provides a structured, evidence-based methodology for assessing the security of artificial intelligence systems. It is the operational layer that bridges existing frameworks — OWASP LLM Top 10, MITRE ATLAS, and NIST AI RMF — into actionable assessment techniques with multi-jurisdiction compliance mapping.
 
 AAISAF exists because:
 
@@ -10,7 +10,7 @@ AAISAF exists because:
 
 2. **Critical attack surfaces are uncovered.** MCP (Model Context Protocol) servers, voice AI systems, and agentic orchestration emerged as production technologies in 2025-2026. No existing framework covers their security assessment at operational depth.
 
-3. **Australia lacks AI-specific security guidance.** The Voluntary AI Safety Standard (VAISS/AI6) is high-level and non-binding. The AI Safety Institute has not published assessment methodology. Practitioners need a concrete framework now.
+3. **Most jurisdictions lack AI-specific security assessment guidance.** Standards like the EU AI Act, Australia's VAISS/AI6, and NIST AI RMF provide governance — not operational testing methodology. Practitioners need a concrete framework now.
 
 ## Scope
 
@@ -72,7 +72,7 @@ AAISAF is designed to complement, not replace, existing frameworks:
 - **MITRE ATLAS**: AAISAF extends ATLAS coverage to AI-specific attack surfaces (MCP, voice AI) and adds assessment methodology that ATLAS does not provide.
 - **NIST AI RMF**: AAISAF operationalises the MEASURE function by providing concrete measurement techniques. Maps to AI 600-1 (Generative AI Profile).
 - **ISO/IEC 42001**: AAISAF supports the risk assessment requirements of Clause 6.1 with evidence-based technique identification.
-- **Australian Regulatory**: AAISAF maps techniques to Privacy Act/APPs, VAISS/AI6, ASD Essential Eight, and SOCI Act obligations.
+- **Regional Regulatory**: AAISAF includes jurisdiction-specific compliance modules — AU/APAC (Privacy Act, VAISS/AI6, Essential Eight, SOCI Act) and EU AI Act. The core taxonomy is jurisdiction-agnostic.
 
 ## How to Read This Framework
 

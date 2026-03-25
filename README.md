@@ -1,13 +1,13 @@
-# AAISAF — Australian AI Security Assessment Framework
+# AAISAF — AI Security Assessment Framework
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Jbermingham1/aaisaf/releases)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Techniques](https://img.shields.io/badge/techniques-87-red.svg)](#taxonomy)
 [![Tactics](https://img.shields.io/badge/tactics-10-orange.svg)](#taxonomy)
 
-**The first comprehensive, open-source AI security assessment framework built for the Australian regulatory environment.**
+**The first comprehensive, open-source AI security assessment framework with technique-level depth for modern AI systems.**
 
-AAISAF provides technique-level assessment methodology for AI systems — bridging the gap between OWASP LLM Top 10 (vulnerability categories), MITRE ATLAS (adversary tactics), and NIST AI RMF (governance). It covers attack surfaces that no other framework addresses: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines** at operational depth.
+AAISAF provides technique-level assessment methodology for AI systems — bridging the gap between OWASP LLM Top 10 (vulnerability categories), MITRE ATLAS (adversary tactics), and NIST AI RMF (governance). It covers attack surfaces that no other framework addresses: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines** at operational depth. Designed for global use with regional compliance modules including AU/APAC, EU AI Act, and international standards.
 
 ---
 
@@ -19,16 +19,16 @@ Existing frameworks tell you **what** to worry about. AAISAF tells you **how** t
 |-----------|-----------------|----------------|
 | OWASP LLM Top 10 | Vulnerability categories | No assessment methodology, no techniques |
 | MITRE ATLAS | Adversary tactic mapping | No testing guidance, no compliance mapping |
-| NIST AI RMF | Governance structure | No technical assessment, no AU regulatory context |
+| NIST AI RMF | Governance structure | No technical assessment, no regulatory context |
 | ISO/IEC 42001 | Management system standard | No attack techniques, no operational testing |
-| **AAISAF** | **All of the above + technique-level testing + AU compliance** | — |
+| **AAISAF** | **All of the above + technique-level testing + multi-jurisdiction compliance** | — |
 
 ### What Makes AAISAF Different
 
 - **87 assessment techniques** across 10 tactic categories — each with evidence, detection, and remediation
 - **Novel coverage**: MCP server security (TA10) and Voice AI exploitation (TA06) — covered by no other framework
 - **AISS severity scoring**: CVSS-compatible 0.0–10.0 scale with 5 AI-specific impact metrics
-- **Australian regulatory mapping**: Privacy Act/APPs, VAISS/AI6, Essential Eight, SOCI Act
+- **Multi-jurisdiction compliance mapping**: OWASP, MITRE ATLAS, NIST, ISO 42001, EU AI Act, AU/APAC regulatory
 - **Three assessment types**: 30-minute self-assessment to 10-day deep assessment
 - **5-level maturity model** with clear progression criteria
 - **9 domain checklists** ready for immediate practitioner use
@@ -114,8 +114,8 @@ AAISAF maps every technique to established standards:
 - [MITRE ATLAS](framework/compliance/mitre-atlas-mapping.md)
 - [NIST AI RMF + AI 600-1](framework/compliance/nist-ai-rmf-mapping.md)
 - [ISO/IEC 42001](framework/compliance/iso-42001-mapping.md)
-- [Australian Regulatory](framework/compliance/australian-regulatory-mapping.md) — Privacy Act, VAISS/AI6, Essential Eight, SOCI Act
-- [EU AI Act](framework/compliance/eu-ai-act-mapping.md) — For AU businesses with EU exposure
+- [AU/APAC Regulatory](framework/compliance/australian-regulatory-mapping.md) — Privacy Act, VAISS/AI6, Essential Eight, SOCI Act
+- [EU AI Act](framework/compliance/eu-ai-act-mapping.md) — For organisations with EU exposure
 
 ---
 
@@ -161,14 +161,14 @@ aaisaf/
 
 ## About
 
-AAISAF is developed and maintained by [Jarrad Bermingham](https://github.com/Jbermingham1) / Bifrost Labs — an Australian AI security research lab.
+AAISAF is developed and maintained by [Jarrad Bermingham](https://github.com/Jbermingham1) / Bifrost Labs — an AI security research lab based in Australia, building for global practitioners.
 
 This framework is independent, open-source, and vendor-neutral. It does not promote any commercial product or service. Contributions are welcome from the global security community.
 
 ### Citation
 
 ```
-Bermingham, J. (2026). Australian AI Security Assessment Framework (AAISAF) v1.0.
+Bermingham, J. (2026). AI Security Assessment Framework (AAISAF) v1.0.
 https://github.com/Jbermingham1/aaisaf
 ```
 
