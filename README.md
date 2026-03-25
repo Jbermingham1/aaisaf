@@ -1,6 +1,6 @@
 # AAISAF — Australian AI Security Assessment Framework
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/bifrost-labs/aaisaf/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Jbermingham1/aaisaf/releases)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Techniques](https://img.shields.io/badge/techniques-87-red.svg)](#taxonomy)
 [![Tactics](https://img.shields.io/badge/tactics-10-orange.svg)](#taxonomy)
@@ -161,15 +161,15 @@ aaisaf/
 
 ## About
 
-AAISAF is developed and maintained by [Bifrost Labs](https://github.com/bifrost-labs) — an Australian AI security research lab.
+AAISAF is developed and maintained by [Jarrad Bermingham](https://github.com/Jbermingham1) / Bifrost Labs — an Australian AI security research lab.
 
 This framework is independent, open-source, and vendor-neutral. It does not promote any commercial product or service. Contributions are welcome from the global security community.
 
 ### Citation
 
 ```
-Bifrost Labs. (2026). Australian AI Security Assessment Framework (AAISAF) v1.0.
-https://github.com/bifrost-labs/aaisaf
+Bermingham, J. (2026). Australian AI Security Assessment Framework (AAISAF) v1.0.
+https://github.com/Jbermingham1/aaisaf
 ```
 
 ### License
