@@ -5,9 +5,9 @@
 [![Techniques](https://img.shields.io/badge/techniques-87-red.svg)](#taxonomy)
 [![Tactics](https://img.shields.io/badge/tactics-10-orange.svg)](#taxonomy)
 
-**The first comprehensive, open-source AI security assessment framework with technique-level depth for modern AI systems.**
+**An open-source AI security assessment framework with technique-level depth — including the first published coverage of MCP server security and voice AI exploitation.**
 
-AAISAF provides technique-level assessment methodology for AI systems — bridging the gap between OWASP LLM Top 10 (vulnerability categories), MITRE ATLAS (adversary tactics), and NIST AI RMF (governance). It covers attack surfaces that no other framework addresses: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines** at operational depth. Designed for global use with regional compliance modules including AU/APAC, EU AI Act, and international standards.
+AAISAF sits between the existing high-level frameworks and the practitioner who actually has to test something. OWASP LLM Top 10 names vulnerability categories. MITRE ATLAS catalogues adversary tactics. NIST AI RMF describes governance. None of them tell you *how* to assess a real system technique-by-technique, with detection signatures, remediations, and compliance mappings. AAISAF does — across **87 techniques** in **10 tactics**, with novel depth on attack surfaces other frameworks haven't operationalised yet: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines**. Designed for global use with regional compliance modules including AU/APAC, EU AI Act, and international standards.
 
 ---
 
@@ -55,6 +55,25 @@ Existing frameworks tell you **what** to worry about. AAISAF tells you **how** t
 → [Full taxonomy overview](framework/03-taxonomy-overview.md)
 
 ---
+
+## Assessment Flow
+
+```
+   ┌────────────────────────────────────────────────────────────────────┐
+   │                                                                    │
+   │   ① CLASSIFY        ② SCOPE          ③ TEST           ④ SCORE      │
+   │   System type       Applicable       Work the         AISS 0-10    │
+   │   A / B / C / …     tactics          checklists       per finding  │
+   │                                                                    │
+   │           ────────────────▶                ────────────────▶       │
+   │                                                                    │
+   │   ⑤ MAP             ⑥ MATURE          ⑦ REPORT                     │
+   │   Compliance        Maturity          Findings +                   │
+   │   (OWASP, MITRE,    level             remediation                  │
+   │   NIST, ISO, AU)    1 → 5             priorities                   │
+   │                                                                    │
+   └────────────────────────────────────────────────────────────────────┘
+```
 
 ## Quick Start
 
