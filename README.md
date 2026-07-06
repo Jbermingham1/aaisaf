@@ -1,13 +1,13 @@
 # AAISAF — AI Security Assessment Framework
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Jbermingham1/aaisaf/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/Jbermingham1/aaisaf/releases)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Techniques](https://img.shields.io/badge/techniques-87-red.svg)](#taxonomy)
+[![Techniques](https://img.shields.io/badge/techniques-91-red.svg)](#taxonomy)
 [![Tactics](https://img.shields.io/badge/tactics-10-orange.svg)](#taxonomy)
 
-**An open-source AI security assessment framework with technique-level depth — including the first published coverage of MCP server security and voice AI exploitation.**
+**An open-source AI security assessment framework with technique-level depth for modern AI systems — with dedicated coverage of MCP server security and voice AI exploitation.**
 
-AAISAF sits between the existing high-level frameworks and the practitioner who actually has to test something. OWASP LLM Top 10 names vulnerability categories. MITRE ATLAS catalogues adversary tactics. NIST AI RMF describes governance. None of them tell you *how* to assess a real system technique-by-technique, with detection signatures, remediations, and compliance mappings. AAISAF does — across **87 techniques** in **10 tactics**, with novel depth on attack surfaces other frameworks haven't operationalised yet: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines**. Designed for global use with regional compliance modules including AU/APAC, EU AI Act, and international standards.
+AAISAF sits between the existing high-level frameworks and the practitioner who actually has to test something. OWASP LLM Top 10 names vulnerability categories. MITRE ATLAS catalogues adversary tactics. NIST AI RMF describes governance. None of them tell you *how* to assess a real system technique-by-technique, with detection signatures, remediations, and compliance mappings. AAISAF does — across **91 techniques** in **10 tactics**, with depth on attack surfaces other frameworks haven't operationalised yet: **MCP servers**, **voice AI**, **agentic orchestration**, and **RAG pipelines**. Designed for global use with regional compliance modules including AU/APAC, EU AI Act, and international standards.
 
 ---
 
@@ -25,11 +25,11 @@ Existing frameworks tell you **what** to worry about. AAISAF tells you **how** t
 
 ### What Makes AAISAF Different
 
-- **87 assessment techniques** across 10 tactic categories — each with evidence, detection, and remediation
-- **Novel coverage**: MCP server security (TA10) and Voice AI exploitation (TA06) — covered by no other framework
+- **91 assessment techniques** across 10 tactic categories — each with evidence, detection, and remediation
+- **Dedicated coverage**: MCP server security (TA10) and Voice AI exploitation (TA06) — surfaces not yet operationalised by other frameworks
 - **AISS severity scoring**: CVSS-compatible 0.0–10.0 scale with 5 AI-specific impact metrics
 - **Multi-jurisdiction compliance mapping**: OWASP, MITRE ATLAS, NIST, ISO 42001, EU AI Act, AU/APAC regulatory
-- **Three assessment types**: 30-minute self-assessment to 10-day deep assessment
+- **Four assessment types**: 60-minute passive posture review to 10-day deep assessment
 - **5-level maturity model** with clear progression criteria
 - **9 domain checklists** ready for immediate practitioner use
 
@@ -46,11 +46,11 @@ Existing frameworks tell you **what** to worry about. AAISAF tells you **how** t
 | TA03 | [Agent & Orchestration Abuse](framework/tactics/TA03-agent-orchestration.md) | 10 | Enhanced |
 | TA04 | [Model API Exploitation](framework/tactics/TA04-model-api.md) | 7 | Enhanced |
 | TA05 | [AI Supply Chain Compromise](framework/tactics/TA05-supply-chain.md) | 7 | Enhanced |
-| TA06 | [Voice AI Exploitation](framework/tactics/TA06-voice-ai.md) | 9 | **First** |
+| TA06 | [Voice AI Exploitation](framework/tactics/TA06-voice-ai.md) | 9 | **Emerging** |
 | TA07 | [Training Data & Model Integrity](framework/tactics/TA07-data-integrity.md) | 8 | Enhanced |
-| TA08 | [Access Control Subversion](framework/tactics/TA08-access-control.md) | 7 | Enhanced |
-| TA09 | [AI-Enhanced Application Attacks](framework/tactics/TA09-ai-application.md) | 6 | Enhanced |
-| TA10 | [MCP Server & Tool Security](framework/tactics/TA10-mcp-tool-security.md) | 12 | **First** |
+| TA08 | [Access Control Subversion](framework/tactics/TA08-access-control.md) | 9 | Enhanced |
+| TA09 | [AI-Enhanced Application Attacks](framework/tactics/TA09-ai-application.md) | 8 | Enhanced |
+| TA10 | [MCP Server & Tool Security](framework/tactics/TA10-mcp-tool-security.md) | 12 | **Emerging** |
 
 → [Full taxonomy overview](framework/03-taxonomy-overview.md)
 

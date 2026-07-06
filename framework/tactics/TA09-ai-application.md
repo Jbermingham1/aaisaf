@@ -34,6 +34,8 @@ This tactic is distinct from traditional application security because the attack
 | [TA09.004](../techniques/TA09/TA09.004-command-injection.md) | Command Injection via AI Code Generation | Critical | 8.8 |
 | [TA09.005](../techniques/TA09/TA09.005-path-traversal.md) | Path Traversal via AI File Operations | High | 7.0 |
 | [TA09.006](../techniques/TA09/TA09.006-insecure-deserialisation.md) | Insecure Deserialisation via AI Output | High | 6.5 |
+| [TA09.007](../techniques/TA09/TA09.007-security-header-misconfiguration.md) | Security Header Misconfiguration | Medium-High | 6.5 |
+| [TA09.008](../techniques/TA09/TA09.008-ad-tracking-government-portals.md) | Ad Tracking on Government/Enterprise Portals | High | 7.2 |
 
 ## Attack Tree
 
@@ -48,6 +50,9 @@ AI-Enhanced Application Attacks
 │   ├── TA09.003 SSRF via AI Tool Use (internal network)
 │   ├── TA09.004 Command Injection via Code Generation (OS access)
 │   └── TA09.005 Path Traversal via File Operations (filesystem)
+└── Infrastructure Posture
+    ├── TA09.007 Security Header Misconfiguration (missing CSP/headers)
+    └── TA09.008 Ad Tracking on Government Portals (advertising pixels on govt sites)
 ```
 
 ## Key References

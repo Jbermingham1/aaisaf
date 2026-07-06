@@ -6,7 +6,7 @@
 
 Voice AI exploitation is uniquely dangerous because it operates on a channel humans inherently trust — the human voice. Unlike text-based attacks that users can review before acting, voice interactions happen in real-time, creating pressure to respond without verification. The combination of synthetic voice generation, adversarial audio, and telephony signal manipulation creates attack vectors that bridge the gap between traditional phreaking, social engineering, and AI prompt injection.
 
-**No existing security framework systematically catalogues voice AI attack techniques.** OWASP LLM covers text-based prompt injection but not speech-specific vectors. MITRE ATLAS includes some adversarial ML techniques but does not address telephony integration, voice cloning in active calls, or conversation flow manipulation. AAISAF is the first framework to provide comprehensive coverage of voice AI exploitation techniques.
+**No existing security framework systematically catalogues voice AI attack techniques.** OWASP LLM covers text-based prompt injection but not speech-specific vectors. MITRE ATLAS includes some adversarial ML techniques but does not address telephony integration, voice cloning in active calls, or conversation flow manipulation. AAISAF provides dedicated coverage of voice AI exploitation techniques.
 
 ## Why This Matters
 

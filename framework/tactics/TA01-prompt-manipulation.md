@@ -6,7 +6,7 @@
 
 Prompt manipulation is to AI systems what SQL injection was to web applications in the early 2000s: a fundamental architectural vulnerability that arises from the inability to cleanly separate instructions from data. Unlike traditional injection attacks, prompt manipulation exploits the natural language understanding layer itself, making it exceptionally difficult to eliminate through conventional input validation.
 
-**AAISAF is the first framework to comprehensively catalogue prompt manipulation techniques with severity scoring, detection methods, and compliance mapping tailored to Australian regulatory requirements.**
+**AAISAF catalogues prompt manipulation techniques with severity scoring, detection methods, and compliance mapping tailored to Australian regulatory requirements.**
 
 ## Why This Matters
 

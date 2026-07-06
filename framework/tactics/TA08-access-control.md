@@ -37,6 +37,8 @@ Every AI system has some form of access control — content filters, role restri
 | [TA08.005](../techniques/TA08/TA08.005-cross-session-leakage.md) | Cross-Session Data Leakage | High | 7.2 |
 | [TA08.006](../techniques/TA08/TA08.006-auth-bypass-indirect.md) | Authorisation Bypass via Indirect Prompt | Critical | 8.3 |
 | [TA08.007](../techniques/TA08/TA08.007-human-loop-bypass.md) | Human-in-the-Loop Bypass | High | 7.5 |
+| [TA08.008](../techniques/TA08/TA08.008-third-party-tracker-exposure.md) | Third-Party Tracker Exposure | High | 7.0 |
+| [TA08.009](../techniques/TA08/TA08.009-cookie-consent-bypass.md) | Cookie Consent Bypass or Absence | Medium | 5.5 |
 
 ## Attack Tree
 
@@ -51,8 +53,11 @@ Access Control Subversion
 ├── Authorisation Layer
 │   ├── TA08.002 Privilege Escalation via AI Output (downstream systems)
 │   └── TA08.006 Authorisation Bypass via Indirect Prompt (injection)
-└── Human Oversight Layer
-    └── TA08.007 Human-in-the-Loop Bypass (approval circumvention)
+├── Human Oversight Layer
+│   └── TA08.007 Human-in-the-Loop Bypass (approval circumvention)
+└── Privacy & Consent Layer
+    ├── TA08.008 Third-Party Tracker Exposure (session recording, analytics)
+    └── TA08.009 Cookie Consent Bypass (tracking without consent)
 ```
 
 ## Key References

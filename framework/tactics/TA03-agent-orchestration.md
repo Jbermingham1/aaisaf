@@ -8,7 +8,7 @@ This explosion has created a fundamentally new attack surface. In October 2025, 
 
 Unlike traditional AI systems where the model produces text, agentic systems produce **actions**. A compromised agent does not just output wrong information — it takes wrong actions with real consequences. The attack surface compounds with every tool granted, every agent added to a multi-agent system, and every degree of autonomy permitted.
 
-**AAISAF is the first framework to systematically assess agent and orchestration security as a distinct tactic with scored techniques.**
+**AAISAF systematically assesses agent and orchestration security as a distinct tactic with scored techniques.**
 
 ## Why This Matters
 

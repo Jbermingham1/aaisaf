@@ -7,7 +7,7 @@ nav_order: 1
 # AAISAF — AI Security Assessment Framework
 {: .fs-9 }
 
-The first comprehensive, open-source AI security assessment framework with technique-level depth for modern AI systems.
+An open-source AI security assessment framework with technique-level depth for modern AI systems.
 {: .fs-6 .fw-300 }
 
 [Get Started](/aaisaf/framework/introduction){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -33,7 +33,7 @@ It covers attack surfaces that no other framework addresses: **MCP servers**, **
 
 ### Novel Coverage
 
-AAISAF is the **first framework globally** to provide technique-level coverage for:
+AAISAF provides technique-level coverage for:
 
 - **TA06 — Voice AI Exploitation** (9 techniques): Deepfake spoofing, voice prompt injection, STT pipeline attacks, credential harvesting via voice agents
 - **TA10 — MCP Server & Tool Security** (12 techniques): Tool poisoning, rug pulls, cross-origin injection, transport exploitation, consent fatigue

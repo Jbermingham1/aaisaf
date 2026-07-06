@@ -19,7 +19,7 @@ Relevant for any organisation deploying AI systems that serve EU users or proces
 | **Art. 10** Data Governance | TA02 (RAG pipeline), TA07 (training data integrity) |
 | **Art. 13** Transparency | TA01.003 (prompt extraction), TA08.004 (role manipulation) |
 | **Art. 14** Human Oversight | TA03.007 (autonomous action), TA08.007 (human-loop bypass) |
-| **Art. 15** Accuracy, Robustness, Security | All 87 techniques (security assessment methodology) |
+| **Art. 15** Accuracy, Robustness, Security | All 91 techniques (security assessment methodology) |
 | **Art. 17** Quality Management | Assessment methodology, checklists, maturity model |
 | **Art. 61** Post-Market Monitoring | Detection guidance in all techniques, monitoring recommendations |
 

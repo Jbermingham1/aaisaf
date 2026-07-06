@@ -6,7 +6,7 @@
 
 Unlike traditional software supply chain attacks that inject code, AI supply chain attacks can also inject *behaviour*. A trojaned model looks identical to its legitimate counterpart — same architecture, same benchmark performance — but contains hidden triggers that activate under specific conditions. A poisoned embedding model returns normal results for 99.9% of queries but manipulates retrieval for attacker-chosen topics. These attacks are fundamentally harder to detect than conventional supply chain compromises.
 
-**The March 2025 litellm supply chain attack** demonstrated that AI-specific infrastructure is actively targeted. AAISAF is the first framework to systematically map the AI-specific supply chain attack surface.
+**The March 2025 litellm supply chain attack** demonstrated that AI-specific infrastructure is actively targeted. AAISAF systematically maps the AI-specific supply chain attack surface.
 
 ## Why This Matters
 

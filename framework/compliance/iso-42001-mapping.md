@@ -30,7 +30,7 @@ This document maps AAISAF assessment techniques to ISO/IEC 42001:2023 — the in
 
 | Requirement | AAISAF Support |
 |------------|----------------|
-| **6.1 Risk assessment** | **Core AAISAF contribution** — 87 techniques provide comprehensive AI risk identification. AISS scoring quantifies risk. |
+| **6.1 Risk assessment** | **Core AAISAF contribution** — 91 techniques provide comprehensive AI risk identification. AISS scoring quantifies risk. |
 | 6.1.2 AI risk treatment | Every technique includes remediation guidance. Assessment reports provide prioritised remediation plans. |
 | 6.2 AI objectives | Maturity levels provide measurable AI security objectives |
 
@@ -65,7 +65,7 @@ This document maps AAISAF assessment techniques to ISO/IEC 42001:2023 — the in
 |-------------------|------------------|
 | **A.5.2** AI policy | Maturity model Level 3+ — documented AI security policy |
 | **A.5.4** AI system lifecycle | Assessment methodology covers development, deployment, and operation phases |
-| **A.6.1.2** AI risk assessment | All 87 techniques — AAISAF IS the risk assessment methodology |
+| **A.6.1.2** AI risk assessment | All 91 techniques — AAISAF IS the risk assessment methodology |
 | **A.6.2.6** Third-party AI components | TA05 (Supply Chain), TA10 (MCP), TA02.009 (Vector DB) |
 | **A.7.2** Data for AI development | TA07 (Data & Model Integrity, all 8 techniques) |
 | **A.7.4** Data quality | TA02.001 (KB Poisoning), TA02.003 (Document Injection), TA02.004 (Embedding Manipulation), TA02.006 (Metadata Exploitation), TA02.008 (Chunking Exploitation) |

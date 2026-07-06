@@ -6,7 +6,7 @@
 
 MCP introduces a fundamentally new attack surface. Unlike traditional APIs where the consumer is a deterministic application, MCP tools are consumed by AI models that interpret natural language descriptions to decide which tools to call and how to call them. This creates exploitation opportunities that do not exist in conventional software architectures.
 
-**No existing security framework covers MCP-specific attack techniques.** AAISAF is the first to systematically catalogue and assess these risks.
+**Most security frameworks do not yet cover MCP-specific attack techniques.** AAISAF systematically catalogues and assesses these risks.
 
 ## Why This Matters
 

@@ -2,7 +2,27 @@
 
 ## Assessment Types
 
-AAISAF defines three assessment types, scaled by depth, duration, and organisational maturity.
+AAISAF defines four assessment types, scaled by depth, duration, and organisational maturity.
+
+### Passive Posture Assessment (60–90 minutes)
+
+**Purpose:** Rapid external posture evaluation using only publicly accessible information. No active testing, no authentication, no contact with the target. Identifies security header gaps, third-party tracker exposure, cookie consent compliance issues, and infrastructure misconfigurations visible from the outside.
+
+**Best for:** Pre-engagement qualification, prospect assessment, initial posture baseline, responsible disclosure preparation, vendor security evaluation.
+
+**Method:**
+1. HTTP security header analysis via `curl -sI` against all public-facing domains
+2. Page source analysis for embedded third-party scripts (analytics, session recording, advertising pixels)
+3. Cookie consent mechanism assessment (presence, functionality, configuration flags)
+4. Content Security Policy review for inappropriate domain whitelisting
+5. CMS/framework exposure check (WordPress API endpoints, version headers, server identification)
+6. Document findings using the claims-vs-reality framework (compare what the organisation says about its security with what is publicly observable)
+
+**Applicable techniques:** TA08.008 (Third-Party Tracker Exposure), TA08.009 (Cookie Consent Bypass), TA09.007 (Security Header Misconfiguration), TA09.008 (Ad Tracking on Government Portals)
+
+**Output:** 1–2 page posture snapshot with severity-rated findings, compliance implications, and recommended next steps. Suitable for use as a responsible disclosure document or pre-engagement conversation starter.
+
+**Legal note:** This assessment uses only publicly accessible information — equivalent to what any visitor sees when loading the website. No active scanning, vulnerability testing, or authentication is performed. All tools used are standard browser functionality (DevTools, curl).
 
 ### Quick Self-Assessment (30 minutes)
 
